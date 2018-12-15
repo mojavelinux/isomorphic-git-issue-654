@@ -9,7 +9,9 @@ git.plugins.set('fs', _fs)
 ;(async () => {
   const reposDir = 'tmp'
   const repoName = 'repo-name'
-  const author = { name: 'Git', email: 'git@example.org' }
+  // ATTENTION: If you fiddle with the timestamp / timezoneOffset (say, make timezoneOffset negative, or
+  // make timestamp 1544912615 instead of 1544912616) then it won't hang.
+  const author = { name: 'Git', email: 'git@example.org', timestamp: 1544912616, timezoneOffset: 5 * 60 }
   let gitServerPort
   let gitServer
 
