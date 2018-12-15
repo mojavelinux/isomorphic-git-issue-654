@@ -1,0 +1,13 @@
+= Test case for isomorphic-git #654
+
+This repository has been set up to demonstrate an intermittent hang in isomorphic-git (issue #654).
+
+To run it, first install the dependencies:
+
+ $ npm i
+
+Then, continue running the [.path]_index.js_ script until you get it to hang.
+
+ $ node index.js
+
+Unfortunately, since this is an intermittent bug, it requires running the script several times to see it happen.

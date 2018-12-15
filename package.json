@@ -1,0 +1,11 @@
+{
+  "name": "isomorphic-git-issue-654",
+  "description": "Demonstrates an intermittent hang in isomorphic-git.",
+  "license": "ISC",
+  "repository": "mojavelinux/isomorphic-git-issue-654",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "isomorphic-git": "^0.46.3",
+    "node-git-server": "^0.5.0"
+  }
+}
